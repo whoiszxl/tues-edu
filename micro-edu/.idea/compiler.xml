@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="edu-course-web" />
+        <module name="edu-uploader" />
+        <module name="edu-core" />
+        <module name="edu-auth" />
+        <module name="edu-gateway" />
+        <module name="edu-course-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="edu-auth" options="-parameters" />
+      <module name="edu-core" options="-parameters" />
+      <module name="edu-course" options="-parameters" />
+      <module name="edu-course-api" options="-parameters" />
+      <module name="edu-course-web" options="-parameters" />
+      <module name="edu-gateway" options="-parameters" />
+      <module name="edu-iaas" options="-parameters" />
+      <module name="edu-uploader" options="-parameters" />
+      <module name="micro-edu" options="-parameters" />
+    </option>
+  </component>
+</project>

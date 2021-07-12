@@ -1,0 +1,22 @@
+server:
+  port: 10002
+
+spring:
+  application:
+    name: edu-uploader
+  cloud:
+    nacos:
+      server-addr: aliyun.whoiszxl.com:8848
+      discovery:
+        server-addr: aliyun.whoiszxl.com:8848
+      config:
+        server-addr: aliyun.whoiszxl.com:8848
+        file-extension: yaml
+
+
+oss:
+  endPoint: a
+  accessKey: a
+  accessSecret: a
+  bucketName: a
+  httpUrl: a
